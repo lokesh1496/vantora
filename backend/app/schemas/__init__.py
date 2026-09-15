@@ -25,3 +25,8 @@ from app.schemas.purchase import (
     PurchaseItemResponse,
     PurchaseResponse,
 )
+
+from app.schemas.stock_movement import (
+    StockAdjustmentCreate,
+    StockMovementResponse,
+)
